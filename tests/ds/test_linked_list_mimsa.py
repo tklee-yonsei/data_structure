@@ -1,11 +1,11 @@
 import unittest
 
-from data_structure.ds.linked_list import LinkedList
+from data_structure.ds.linked_list_mimsa import linked_list_mimsa
 from tests.ds.interface.base_test_addable import _BaseAddableTest
 from tests.ds.interface.base_test_removable import _BaseRemovableTest
 
 
-class TestLinkedList(
+class Testlinked_list_mimsa(
     _BaseAddableTest,
     _BaseRemovableTest,
     unittest.TestCase,
@@ -14,7 +14,7 @@ class TestLinkedList(
 
     def create_ds_instance(self):
         """LinkedList 인스턴스를 생성하여 반환합니다."""
-        return LinkedList()
+        return linked_list_mimsa()
 
 
 if __name__ == "__main__":
