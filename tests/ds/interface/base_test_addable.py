@@ -1,7 +1,7 @@
-from tests.ds.interface.base_test_data_structure import BaseDataStructureTest
+from tests.ds.interface.base_test_data_structure import _BaseDataStructureTest
 
 
-class BaseAddableTest(BaseDataStructureTest):
+class _BaseAddableTest(_BaseDataStructureTest):
     """요소 추가 테스트 베이스 클래스."""
 
     def setUp(self):
